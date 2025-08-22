@@ -1,0 +1,7 @@
+  h1 {
+     font-size: 70px;
+     text-align: center;
+     background: linear-gradient(to right, green, yellow, red, pink, blue, orange);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
