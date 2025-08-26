@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Areeba Khan</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <h1 class="header">Nature Lover's Hub-Areeba Khan</h1>
+
+     <h2>
+        <a href="#" onclick="showImage('pakistan')">Pakistan</a> |
+        <a href="#" onclick="showImage('brunei')">Brunei</a> |
+        <a href="#"onclick="showImage('saudi')">Saudi Arabia</a> 
+     </h2> 
+
+     <div class="main">
+         <input type="text" placeholder="Search here...">
+         <button class="btn btn-home" onclick="goToHome()">Home</button>
+         <button class="btn btn-about">About</button>
+     </div> 
+
+     <!--Image Section-->
+     <div id="image-container">
+         <div class="image-wrapper">
+             <a href="images/areeba.jpeg" target="_blank">
+                <img id="dynamic-image" src="images/areeba.jpeg" class="animated-image" alt="Areeba Khan">
+             </a>
+             <h4>Sami Khan</h4>
+       </div>
+     </div>
+
+     <p id="image-details">
+         Welcome to Nature Lover's Hub! 🌍✨
+         Experience the beauty of nature from different countries.
+         📷Enjoy and Fall in Love with Nature! 🌿💗
+      </p>
+      <footer class="footer">
+         <p>&copy; 2025 Nature Lover's Hub.All Right Reserved.</p>
+      </footer>
+
+      <!--is main java istamal hy-->
+      <script>
+        function goToHome() {
+            var imageContainer = document.getElementById("image-container");
+            var imageDetails = document.getElementById("image-details");
+
+            imageContainer.innerHTML = `
+                <div class="image-wrapper">
+                    <a href="images/areeba.jpeg" target="_blank">
+                        <img src="images/areeba.jpeg" class="animated-image" alt="Sami Khan">
+                    </a>
+                    <h4>Sami Khan</h4>
+                </div>
+            `;
+
+            imageDetails.style.display = "block"; // Show paragraph only on Home
+        }
+
+        function showImage(country) {
+            var imageContainer = document.getElementById("image-container");
+            var imageDetails = document.getElementById("image-details");
+
+            imageDetails.style.display = "none"; // Hide paragraph on other tabs
+
+            var images = {
+                pakistan: [
+                    { src: "images/Pakistan/pakistan1.jpg", alt: "Lahore" },
+                    { src: "images/Pakistan/pakistan2.jpg", alt: "Islamabad" },
+                    { src: "images/Pakistan/pakistan4.jpg", alt: "Karachi" },
+                    { src: "images/Pakistan/pakistan3.jpg", alt: "Karachi" },
+                    { src: "images/Pakistan/pakistan5.jpg", alt: "Karachi" },
+                    { src: "images/Pakistan/pakistan1.jpg", alt: "Karachi" }
+                ],
+                brunei: [
+                    { src: "images/Brunei/Brunei1.jpg", alt: "Seri Begawan" },
+                    { src: "images/Brunei/Brunei2.jpg", alt: "Tutong" },
+                    { src: "images/Brunei/Brunei3.jpg", alt: "Kuala Belait" }
+                ],
+                saudi: [
+                    { src: "images/Saudi_Arabia/saudi1.jpg", alt: "Mecca" },
+                    { src: "images/Saudi_Arabia/saudi2.jpg", alt: "Mecca" },
+                    { src: "images/Saudi_Arabia/saudi3.jpg", alt: "Mecca" }
+                ]
+            };
+
+            var selectedImages = images[country];
+            imageContainer.innerHTML = selectedImages.map(img => `
+                <div class="image-wrapper">
+                    <a href="${img.src}" target="_blank">
+                        <img src="${img.src}" class="animated-image" alt="${img.alt}">
+                    </a>
+                    <h4>${img.alt}</h4>
+                </div>
+            `).join('');
+        }
+    </script>
+
+</body>
+</html>
+ 
+      
+    
+
+
+                     
+
+<script>
+</script>
+</body>
+</html>
