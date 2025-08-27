@@ -19,19 +19,25 @@ It includes examples of **scale, rotate, skew, translate, and combined transform
 ## 🖼️ Screenshots
 
 ### 🔹 Scale
-![Scale Screenshot](images/scale.png)
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/144c523d-43d0-4057-978b-335f9bcf13c9" />
+
+---
 ### 🔹 Rotate
-![Rotate Screenshot](images/rotate.png)
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/592434bf-e0fe-4c7a-a5e8-73faec8180ef" />
 
 ### 🔹 Skew
-![Skew Screenshot](images/skew.png)
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a22b53c2-7c18-46a7-ad0e-640263e32261" />
 
 ### 🔹 Translate
-![Translate Screenshot](images/translate.png)
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b37957ad-6b17-452a-ab24-f4ed2a593f8f" />
 
 ### 🔹 Combine (All Effects)
-![Combine Screenshot](images/combine.png)
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c02b61f3-f5c5-43d0-831e-2cdcc447b00b" />
 
 ---
 
