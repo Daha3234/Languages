@@ -20,24 +20,25 @@ It includes examples of **scale, rotate, skew, translate, and combined transform
 
 ### 🔹 Scale
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/144c523d-43d0-4057-978b-335f9bcf13c9" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b70a5e11-2975-426b-8866-1058a1c68f5a" />
+
 
 ---
 ### 🔹 Rotate
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/592434bf-e0fe-4c7a-a5e8-73faec8180ef" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/592434bf-e0fe-4c7a-a5e8-73faec8180ef" />
 
 ### 🔹 Skew
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a22b53c2-7c18-46a7-ad0e-640263e32261" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/a22b53c2-7c18-46a7-ad0e-640263e32261" />
 
 ### 🔹 Translate
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b37957ad-6b17-452a-ab24-f4ed2a593f8f" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b37957ad-6b17-452a-ab24-f4ed2a593f8f" />
 
 ### 🔹 Combine (All Effects)
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c02b61f3-f5c5-43d0-831e-2cdcc447b00b" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c02b61f3-f5c5-43d0-831e-2cdcc447b00b" />
 
 ---
 
