@@ -1,0 +1,21 @@
+div.grallery {
+    margin: 5px;
+    border: 1px solid #a71515ff;
+    float: left;
+    width: 180px;
+}
+div.grallery:hover {
+    border: 1px solid rgb(35, 34, 34);
+    float: right;
+}
+div.grallery img {
+    width: 100%;
+    height: auto;
+    float: left;
+}   
+div.desc {
+    padding: 15px;
+    text-align: center;
+    float: right;
+}
+ 

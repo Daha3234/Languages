@@ -1,0 +1,9 @@
+p:hover, h1:hover, a:hover {
+  background-color: yellow;
+}
+p:hover {
+  color:brown;
+}
+a:hover {
+  font-size:40px;
+}
