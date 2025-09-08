@@ -41,7 +41,50 @@ Users can click on images to open them in full size. Each image also has a descr
 ## 🚀 How to Run
 1. Clone or download the repository.  
 2. Open `index.html` in any browser.  
-3. Click any image to see it in a new tab.  
+3. Click any image to see it in a new tab.
+
+4. # 🎨 Display Property Example
+
+This is a simple **HTML project** demonstrating the use of the **display property** with inline CSS.  
+It includes multiple colored boxes to visualize layout and styling.
+
+---
+
+## ✨ Features
+- 🟥 Heading styled with inline color (red)  
+- 🟩 Three div boxes with different background colors  
+- 📦 Nested div section for testing display behavior  
+
+---
+
+## 🖼️ Screenshots
+
+### 🔹 Main Output
+<img width="610" height="843" alt="image" src="https://github.com/user-attachments/assets/5c94812e-ea8a-4e46-b64a-7e684e4b44ca" />
+
+
+### 🔹 Colored Boxes
+<img width="1885" height="926" alt="image" src="https://github.com/user-attachments/assets/def73b42-b24f-44f9-915a-f268b1fa2a3c" />
+
+
+---
+
+## 📂 Project Files
+- `index.html` → Main HTML file  
+- `styles.css` → (optional) external stylesheet  
+
+---
+
+## 🚀 How to Run
+1. Clone or download this repository.  
+2. Open `index.html` in your browser.  
+3. See how different **divs** and inline CSS styling behave.  
+
+---
+
+## 📜 License
+© 2025 Display Property Example Project. All Rights Reserved.
+
 
 ---
 
