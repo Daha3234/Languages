@@ -1,0 +1,24 @@
+.hero {
+  min-height: 100vh;
+  background: url("images/River1.jpg") center/cover;
+  display: grid;
+  place-items: center;
+}
+
+.glass-card {
+  width: 320px;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  color: #fff;
+  position: relative;          /* stacking context */
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+          backdrop-filter: blur(14px) saturate(160%);
+  transition: transform 0.3s ease;
+}
+.glass-card:hover {
+  transform: translateY(-6px);
+}
