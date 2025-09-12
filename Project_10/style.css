@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color:burlywood;
+
+
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    color:red;;
+}
+ #container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-column;
+    
+    
+ }
+
+ #box1 {
+    background-color: gray;
+ }
+
+ #box2 {
+    background-color:cadetblue;
+ }
+  #box3 {
+    background-color:rosybrown;
+  }
+   #box4 {
+    background-color:mediumseagreen;
+   }
+
+   #box5 {
+    background-color:greenyellow;
+   }
+   #flex {
+    color:brown;
+    font-size: 30px;
+   }
