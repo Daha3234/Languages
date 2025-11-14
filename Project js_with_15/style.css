@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(108, 225, 114);
+    background: palevioletred;
+}
+
+p {
+    font-size: 60;
+    color:blueviolet;
+}
+
+body {
+    background-color: rgb(194, 171, 192);
+}
+
+button {
+    background-color:coral;
+    font-size: 30;
+    
+}
