@@ -1,0 +1,6 @@
+.inline-box {
+  display: inline;
+  background-color: lightgreen;
+  padding: 10px; /* top bottom ka effect kam hoga */
+  width: 200px;  /* yeh apply nahi hoga */
+}
