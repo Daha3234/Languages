@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tayyba <title>
+<head>
+<body>
+<h1>Tayyba</h1>
+<p>My name is areeba and am read in 9 class.This is my first code.</p>
