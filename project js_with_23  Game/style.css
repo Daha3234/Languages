@@ -3,13 +3,15 @@
     padding: 0;
     text-align: center;
 }
+
 h1 {
     background-color: #081b31;
     color:#fff;
     height:5rem;
     line-height: 5rem;
-
 }
+
+/* IMAGE BACKGROUND */
 .choice {
     height:165px;
     width:165px;
@@ -17,28 +19,28 @@ h1 {
     display:flex;
     justify-content:center;
     align-items:center;
+    background-color: #dc18df;   /* ✅ image background color */
+    transition: 0.3s;
 }
+
 .choice:hover {
     cursor:pointer;
     background-color: #081b31;
-
-
-
 }
+
 img {
-    height: 150px;
+    height:150px;
     width:150px;
-    object-fit:cover;
+    object-fit: cover;
     border-radius:50%;
-
 }
+
 .choices {
     display:flex;
     justify-content:center;
     align-items:center;
     gap: 3rem;
     margin-top:5rem;
-
 }
 
 .score-board {
@@ -54,11 +56,12 @@ img {
 #comp-score {
     font-size: 4rem;
 }
+
 .msg-container {
     margin-top: 5rem;
 }
+
 #msg {
-   
     background-color: #081b31;
     color: #fff;
     height: 5rem;
