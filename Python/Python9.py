@@ -6,8 +6,4 @@ while i <= 100:
     i+=1
 
 
-    e = 1
-    while e > 5:
-        print(i)
-        e -= 1
-        print("loops ended")
+    
